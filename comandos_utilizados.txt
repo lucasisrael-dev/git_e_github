@@ -1,0 +1,13 @@
+git init (inicia um diretorio git que vai ter as versoes controladas)
+git add . (adiciona os arquivos alterado para o stage)
+git status (mostra as alterações pendendes de commit)
+git commit -m "mensagem de commit" (commita as alteracoes no codigo)
+git config --global user.email (configura o email do usuario)
+git config --global user.name (configura o nome do usuario)
+git remote add [branch] [endereço do rep remoto] (adiciona um repositorio do github)
+git push (leva todas as alterações para o repositorio online do github)
+git branch (lista as branchs)
+git checkout [nome da branch] (muda para a branch informada no comando)
+git merge [nome a branch e vai ser mergeada a branch atual] (mergeia as alterações da branch nomeada para a branch atual)
+git pull (baixa as atualizações do repositorio do github)
+criar arquivo .gitignore para listas arquivos e diretorios a serem ignorados
